@@ -1,4 +1,9 @@
 require('user.options')
 require('user.plugins')
 require('user.tokyonight')
-
+require('user.treesitter')
+require('user.telescope')
+require('user.gruvbox')
+require('user.lspconfig')
+require('user.lualine')
+require('user.cmp')
