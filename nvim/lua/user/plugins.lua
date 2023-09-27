@@ -17,6 +17,12 @@ local plugs = {
     {'hashivim/vim-terraform'},
     {'norcalli/nvim-colorizer.lua'},
     {'ekalinin/dockerfile.vim'},
+    {'williamboman/mason.nvim'},
+    {'williamboman/mason-lspconfig.nvim'},
+    -- {'formatter.vim'},
+    -- {'nvim-lint'},
+    -- {'nvim-dap'},
+    -- {'nvim-dap-ui'},
 }
 
 

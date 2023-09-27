@@ -4,12 +4,13 @@ if not ok then
     return
 end
 
-lspconfig.pyright.setup{}
-lspconfig.gopls.setup{}
-lspconfig.gradle_ls.setup{}
-lspconfig.pylsp.setup{}
-lspconfig.terraformls.setup{}
-lspconfig.tsserver.setup{}
-lspconfig.lua_ls.setup{}
-lspconfig.dockerls.setup{}
-lspconfig.cssls.setup{}
+-- setup via mason-lspconfig plugin now
+-- lspconfig.pyright.setup{}
+-- lspconfig.gopls.setup{}
+-- lspconfig.gradle_ls.setup{}
+-- lspconfig.pylsp.setup{}
+-- lspconfig.terraformls.setup{}
+-- lspconfig.tsserver.setup{}
+-- lspconfig.lua_ls.setup{}
+-- lspconfig.dockerls.setup{}
+-- lspconfig.cssls.setup{}

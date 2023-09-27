@@ -3,11 +3,13 @@ FROM ubuntu
 WORKDIR /root
 
 RUN apt update
-RUN apt --assume-yes install git
-RUN apt --assume-yes install curl
-RUN apt --assume-yes install sudo
-RUN apt --assume-yes install zsh
-RUN apt --assume-yes install lua5.4
+RUN apt --assume-yes install \
+        git \
+        curl \
+        sudo \
+        zsh \
+        lua5.4 \
+        unzip
 
 RUN curl -LJO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
 
