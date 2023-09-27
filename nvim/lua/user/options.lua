@@ -1,4 +1,5 @@
 vim.g.mapleader = " "
+vim.g.netrw_banner=0
 
 vim.opt.number = true
 vim.opt.tabstop = 4
@@ -16,8 +17,6 @@ vim.opt.smartcase = true
 vim.opt.ignorecase = true
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "$HOME/.vim/undodir"
-vim.opt.undofile = true
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
 vim.opt.scrolloff = 8
