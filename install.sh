@@ -1,4 +1,5 @@
-INSTALL_DIR=$XDG_CONFIG_HOME/nvim
+CONFIG_DIR=${XDG_CONFIG_HOME:-$HOME/.config}
+INSTALL_DIR=$CONFIG_DIR/nvim
 
 echo ">> installing nvim configs -> $INSTALL_DIR"
 
