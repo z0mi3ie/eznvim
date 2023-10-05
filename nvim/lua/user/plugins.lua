@@ -19,6 +19,7 @@ local plugs = {
     {'ekalinin/dockerfile.vim'},
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
+	{'Vimjas/vim-python-pep8-indent'}
     -- {'formatter.vim'},
     -- {'nvim-lint'},
     -- {'nvim-dap'},
@@ -45,7 +46,6 @@ end
 
 function lazy.setup(plugins)
     lazy.install(lazy.path)
-
     vim.opt.rtp:prepend(lazy.path)
     require('lazy').setup(plugins, lazy.opts)
 end
